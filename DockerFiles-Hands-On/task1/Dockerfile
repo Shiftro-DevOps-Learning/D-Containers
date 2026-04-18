@@ -6,6 +6,7 @@ ENV PLATFORM=AWS \
     OWNER=Shravan
 
 ADD ./index.html /usr/share/nginx/html
+ADD ./default.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /app
 
